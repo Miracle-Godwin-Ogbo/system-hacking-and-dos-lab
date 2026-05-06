@@ -48,7 +48,7 @@ nmap -sV 192.168.222.131
 
 The scan revealed open ports and services, including a vulnerable FTP service.
 
-### 📸 Screenshot: Nmap Scan
+### Screenshot: Nmap Scan
 
 ![Nmap Scan](screenshots_nmap-scan.png)
 
@@ -81,7 +81,7 @@ run
 whoami
 ```
 
-### 📸 Screenshot: Shell Access
+###  Screenshot: Shell Access
 
 > Show command execution on target
 
@@ -108,7 +108,7 @@ set THREADS 50
 set sockets 1000000
 ```
 
-### 📸 Screenshot: Setup
+### Screenshot: Setup
 
 ![Setup](screenshots_setup.png)
 
@@ -120,7 +120,7 @@ set sockets 1000000
 run
 ```
 
-### 📸 Screenshot: Attack Running
+###  Screenshot: Attack Running
 
 
 ![Running](screenshots_attack_running.png)
@@ -131,7 +131,7 @@ run
 
 During the attack, the web server became slow and unable to connect.
 
-### 📸 Screenshot: Impact
+### Screenshot: Impact
 
 ![Impact](screenshots_impact.png)
 
