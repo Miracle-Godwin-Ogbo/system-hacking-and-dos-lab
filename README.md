@@ -50,7 +50,7 @@ The scan revealed open ports and services, including a vulnerable FTP service.
 
 ### Screenshot: Nmap Scan
 
-![Nmap Scan](screenshots_nmap-scan.png)
+![Nmap Scan](screenshots_nmap_scan.png)
 
 ---
 
@@ -97,7 +97,7 @@ To simulate a denial-of-service attack by exhausting server resources.
 
 ---
 
-## 1. Attack Setup
+##  Attack Setup
 
 ```bash
 search slowloris
@@ -114,7 +114,7 @@ set sockets 1000000
 
 ---
 
-## 2. Attack Execution
+##  Attack Execution
 
 ```bash
 run
@@ -127,7 +127,7 @@ run
 
 ---
 
-## 3. Impact Analysis
+##  Impact Analysis
 
 During the attack, the web server became slow and unable to connect.
 
