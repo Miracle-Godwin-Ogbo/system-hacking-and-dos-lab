@@ -114,7 +114,6 @@ set RHOSTS 192.168.222.131
 set RPORT 80
 set THREADS 50
 set sockets 1000000
-run
 ```
 
 ### Screenshot: Setup
