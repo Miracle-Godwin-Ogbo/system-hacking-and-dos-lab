@@ -44,7 +44,7 @@ The target system IP address was identified within the local lab network.
 
 Command Used:
 
-```
+```bash
 nmap -sV 192.168.222.131
 ```
 
